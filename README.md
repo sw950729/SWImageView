@@ -1,6 +1,13 @@
 # SWImageView
-this is a imageview about round and circle with borderwidth
+this is a imageview about round and circle with borderwidth,if you have some suggest.please give me your suggest in issues.if you like.star it
 
+![github](https://github.com/sw950729/SWImageView/blob/master/image/image.png)   
+![github](https://github.com/sw950729/SWImageView/blob/master/image/image_two.png)   
+
+## Gradle
+```
+compile 'com.angel:SWImageView:1.0.0' 
+```
 ## How to use
 ```
         <com.angel.view.SWImageView
