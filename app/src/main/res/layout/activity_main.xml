@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.angel.view.SWImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mine"
+            android:layout_gravity="center"
+            app:borderColor="@color/colorPrimary"
+            app:borderWidth="3dp"
+            app:type="circle" />
+
+        <com.angel.view.SWImageView
+            android:layout_width="300dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mine"
+            app:borderWidth="1dp"
+            app:type="round" />
+
+        <com.angel.view.SWImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/mine"
+            app:type="circle" />
+
+        <com.angel.view.SWImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/mine"
+            app:type="circle" />
+
+        <com.angel.view.SWImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mine"
+            app:type="circle" />
+    </LinearLayout>
+</ScrollView>
