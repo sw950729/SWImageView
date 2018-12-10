@@ -34,7 +34,7 @@ public class SWImageView extends ImageView {
     private static final int TYPE_NORMAL = -1;
     private static final int TYPE_CIRCLE = 0;
     private static final int TYPE_ROUND = 1;
-    private static final int BODER_RADIUS_DEFAULT = 10;
+    private static final int BORDER_RADIUS_DEFAULT = 10;
     private static final int BORDER_WIDTH = 0;
     private static final int BORDER_COLOR = Color.BLACK;
 
@@ -65,7 +65,7 @@ public class SWImageView extends ImageView {
         boder_paint = new Paint();
         TypedArray array = context.obtainStyledAttributes(attrs,
                 R.styleable.SWImageView);
-        borderRadius = dp2px(array.getDimension(R.styleable.SWImageView_borderRadius, BODER_RADIUS_DEFAULT));
+        borderRadius = dp2px(array.getDimension(R.styleable.SWImageView_borderRadius, BORDER_RADIUS_DEFAULT));
         type = array.getInt(R.styleable.SWImageView_type, TYPE_NORMAL);
         border_width = dp2px(array.getDimension(R.styleable.SWImageView_borderWidth, BORDER_WIDTH));
         border_color = array.getInt(R.styleable.SWImageView_borderColor, BORDER_COLOR);
